@@ -1,0 +1,4 @@
+﻿  DoubleList_1073.c
+C:\Users\Ale\source\repos\DoubleList_1073\DoubleList_1073\DoubleList_1073.c(76,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ale\source\repos\DoubleList_1073\DoubleList_1073\DoubleList_1073.c(86,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ale\source\repos\DoubleList_1073\DoubleList_1073\DoubleList_1073.c(95,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
