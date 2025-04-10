@@ -1,0 +1,20 @@
+Smart City
+Google
+5
+12000.50
+Health Tracker
+Apple
+3
+8800.00
+AI Assistant
+Microsoft
+4
+9500.25
+Eco Farm
+Amazon
+6
+13000.00
+Autonomous Car
+Tesla
+8
+25000.75
