@@ -36,18 +36,21 @@ BST* insert_node(BST* root, Farmacie farmacie) {
 	return root;
 
 }
-void parse_inOrder(BST* node) {
-	if (node != NULL) {
-		parse_inOrder(node->left);
-		printf("%d ", node->data.cod);
-		parse_inOrder(node->right);
-	}
-}
+
 void postOrder(BST* node) {
 	if (node) {
 		postOrder(node->left);
 		postOrder(node->right);
 		printf("%d %s %.2f %d\n", node->data.cod, node->data.denumire, node->data.m2, node->data.nrAngajati);
+	}
+}
+
+void preOrder(BST* node) {
+	if (node) {
+		
+		printf("%d %s %.2f %d\n", node->data.cod, node->data.denumire, node->data.m2, node->data.nrAngajati);
+		postOrder(node->left);
+		postOrder(node->right);
 	}
 }
 
@@ -96,7 +99,9 @@ int main() {
 		bst = insert_node(bst, farma);
 
 	}
+
 	postOrder(bst);
+
 	bst=deallocate(bst);
 
 	fclose(f);
