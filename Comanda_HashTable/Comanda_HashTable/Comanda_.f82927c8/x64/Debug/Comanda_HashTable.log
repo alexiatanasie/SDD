@@ -1,0 +1,7 @@
+﻿  Source.c
+D:\sdd t2\Comanda_HashTable\Comanda_HashTable\Source.c(32,25): warning C4013: 'mallloc' undefined; assuming extern returning int
+D:\sdd t2\Comanda_HashTable\Comanda_HashTable\Source.c(32,18): warning C4312: 'type cast': conversion from 'int' to 'Node *' of greater size
+D:\sdd t2\Comanda_HashTable\Comanda_HashTable\Source.c(66,20): warning C4018: '<': signed/unsigned mismatch
+D:\sdd t2\Comanda_HashTable\Comanda_HashTable\Source.c(133,18): warning C4474: 'printf' : too many arguments passed for format string
+Source.obj : error LNK2019: unresolved external symbol mallloc referenced in function insertNode
+D:\sdd t2\Comanda_HashTable\Comanda_HashTable\x64\Debug\Comanda_HashTable.exe : fatal error LNK1120: 1 unresolved externals
